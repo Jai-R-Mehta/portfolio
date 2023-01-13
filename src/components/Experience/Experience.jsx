@@ -14,6 +14,15 @@ const Experience = () => {
           <article className ="experience__details" >
               <GiMoebiusStar className ="experience__details-icon"/>
               <div>
+                <h4>Teaching Assitant (January 2022 - Present)</h4>
+                <p><small>-Directed labs, graded assignments and taught C++ for ENGTECH-1PR3 (Object Oriented Programming).</small></p>
+                <p><small>-Coached students, taught ELM and assisted in conducting labs for COMPSCI-1XD3 (Intro to Software Design).</small></p>
+                <p><small>-Mentored 2 classes of 60 students and guided them to success.</small></p>
+              </div>
+          </article>
+          <article className ="experience__details" >
+              <GiMoebiusStar className ="experience__details-icon"/>
+              <div>
                 <h4>Computing and Software Ambassador (October 2022 - Present)</h4>
                 <p><small>-Acted as spokesperson for McMaster University and the Computing and Software programs.</small></p>
                 <p><small>-Collaborated with a team to develop recruitment communication strategies and related objectives.</small></p>
@@ -50,6 +59,10 @@ const Experience = () => {
             <article className ="experience__details">
               <MdOutlineCheckCircleOutline className ="experience__details-icon"/>
               <h4>C#</h4>
+            </article>
+            <article className ="experience__details">
+              <MdOutlineCheckCircleOutline className ="experience__details-icon"/>
+              <h4>C++</h4>
             </article>
             <article className ="experience__details">
               <MdOutlineCheckCircleOutline className ="experience__details-icon"/>
