@@ -7,9 +7,9 @@ const Experience = () => {
   return (
     <section id='experience'> 
       <h2>My Experience and Skills</h2>
+      <div className='container experience__container1'>
 
-      <div className='container experience__container'>
-        <div className='experience__experience'>
+      <div className='experience__experience'>
           <h3>Experience</h3>
           <article className ="experience__details" >
               <GiMoebiusStar className ="experience__details-icon"/>
@@ -40,6 +40,9 @@ const Experience = () => {
           </article>
 
         </div>
+        </div>
+
+      <div className='container experience__container'>
 
         <div className='experience__skills'>
           <h3>Languages</h3>
