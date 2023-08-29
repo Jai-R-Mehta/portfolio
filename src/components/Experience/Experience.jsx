@@ -14,7 +14,16 @@ const Experience = () => {
           <article className ="experience__details" >
               <GiMoebiusStar className ="experience__details-icon"/>
               <div>
-                <h4>Teaching Assitant (January 2022 - Present)</h4>
+                <h4>Software Developer Co-op (May 2023 - Present)</h4>
+                <p><small>-Collaborated in an Agile environment, partnering with mentors to integrate an automated Maven upgrade bot (Renovate) across 2 repositories. Successfully implemented rate limiting to curb excessive PRs and resolved a long-standing PR limit problem.</small></p>
+                <p><small>-Resolved version mismatches and issues through in-depth analysis of Docker logs and Kubernetes pods, adeptly debugging errors. Facilitated efficient collaboration using Jira and Gerrit.</small></p>
+                <p><small>-Upgraded and tested 20+ third-party dependencies across 3 distinct microservices within a CI/CD pipeline.</small></p>
+              </div>
+          </article>
+          <article className ="experience__details" >
+              <GiMoebiusStar className ="experience__details-icon"/>
+              <div>
+                <h4>Teaching Assistant (January 2023 - April 2023)</h4>
                 <p><small>-Directed labs, graded assignments and taught C++ for ENGTECH-1PR3 (Object Oriented Programming).</small></p>
                 <p><small>-Coached students, taught ELM and assisted in conducting labs for COMPSCI-1XD3 (Intro to Software Design).</small></p>
                 <p><small>-Mentored 2 classes of 60 students and guided them to success.</small></p>
@@ -23,7 +32,7 @@ const Experience = () => {
           <article className ="experience__details" >
               <GiMoebiusStar className ="experience__details-icon"/>
               <div>
-                <h4>Computing and Software Ambassador (October 2022 - Present)</h4>
+                <h4>Computing and Software Ambassador (October 2022 - April 2023)</h4>
                 <p><small>-Acted as spokesperson for McMaster University and the Computing and Software programs.</small></p>
                 <p><small>-Collaborated with a team to develop recruitment communication strategies and related objectives.</small></p>
                 <p><small>-Planned and hosted onsite events.</small></p>
@@ -32,10 +41,10 @@ const Experience = () => {
           <article className ="experience__details">
               <GiMoebiusStar size= "22" className ="experience__details-icon"/>
               <div>
-                <h4>Jr. V.P Software Architecture (April 2022 - Present)</h4>
-                <p><small>-Collaborate with the team to design , maintain and optimize the McMaster Start Coding Club Website using IHP and SQL .</small></p>
-                <p><small>-The website is used every year to teach the ”Software Design Using Web Programming” course to students studying at McMaster University.</small></p>
-                <p><small>-The website has also been used to teach over 2,500 children basic web animation/design using ELM.</small></p>
+                <h4> V.P Software Architecture (April 2022 - Present)</h4>
+                <p><small>-Collaborated with team to improve and develop web platform used to teach over 10,000 children how to code in elm. The platform has over 1.5 million compiles and is also used to teach a Software Design course at McMaster.</small></p>
+                <p><small>-Prototyped, designed and implemented real time user analytics for mentors and teachers to gauge the progress of the class. Well received by teachers from schools throughout Canada with great feedback.</small></p>
+                <p><small>-Implemented a grid view along with a view for the mentors using React. Collaborated with team in weekly meetings to envision ideas to improve and optimize the website.</small></p>
               </div>          
           </article>
 
@@ -114,6 +123,22 @@ const Experience = () => {
             <article className ="experience__details">
               <MdOutlineCheckCircleOutline className ="experience__details-icon"/>
               <h4>Git</h4>
+            </article>
+            <article className ="experience__details">
+              <MdOutlineCheckCircleOutline className ="experience__details-icon"/>
+              <h4>Gerrit</h4>
+            </article>
+            <article className ="experience__details">
+              <MdOutlineCheckCircleOutline className ="experience__details-icon"/>
+              <h4>Docker</h4>
+            </article>
+            <article className ="experience__details">
+              <MdOutlineCheckCircleOutline className ="experience__details-icon"/>
+              <h4>Kubernetes</h4>
+            </article>
+            <article className ="experience__details">
+              <MdOutlineCheckCircleOutline className ="experience__details-icon"/>
+              <h4>Maven</h4>
             </article>
             <article className ="experience__details">
               <MdOutlineCheckCircleOutline className ="experience__details-icon"/>
